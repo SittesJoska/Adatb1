@@ -4,6 +4,8 @@ include_once 'lekerdezesek.php';
 
 echo menu();
 
+echo menu();
+
 $conn = connect();
 
 if(ISSET($_POST["submit"])) {
